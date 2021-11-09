@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+#mainheader {
+  background:#07737A;
+  background-position: center center;
+  text-align: center;
+  color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 1.6em;
+  }
+  .textbox {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    color:black;
+  font-size: 18px;
+  padding-top: 10px;
+  line-height: 1.6em;
+  }
+  #mainNav {
+    background:#B1D1D3;
+    color:white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  #mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  #mainNav li {
+    display: inline;
+    padding: 5px 10px;
+  }
+  #mainNav a {
+    color:rgb(52, 60, 68);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  #mainNav li:hover {
+    background:rgb(32, 170, 170);
+  }
+  #jumbo {
+    background-image:url(türkis.png);
+    background-position: center center;
+    min-height: 200px;
+    text-align: center;
+  }
+  #jumbo h3 {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 1.6em;
+  }
+  #main {
+    float: right;
+    width: 50%;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  #sidebar {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-right: 1px solid #333;
+    box-sizing: border-box;
+  }
+ 
+@media (max-width:600px){
+  #main, #sidebar {
+    width: 100%;
+    float: none;
+    border: none;}
+  }
+  #bottombox {
+    background:#B1D1D3;
+    background-position: center center;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    color: rgb(52, 60, 68);
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  #mainFooter {
+    background:darkslategray;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+  }
